@@ -38,3 +38,25 @@ console.log(typeof myObj);
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof scoreValue);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myName ="AmitJha";
+let anotherName =myName
+anotherName="KunalJha";
+console.log(anotherName);
+console.log(myName);
+
+let userOne ={
+    email :"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo =userOne
+userTwo.email = "amitjha@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
